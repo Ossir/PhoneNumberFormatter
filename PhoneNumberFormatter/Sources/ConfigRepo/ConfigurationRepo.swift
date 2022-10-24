@@ -42,4 +42,8 @@ final public class ConfigurationRepo {
     public func add(format: PhoneFormat) {
         customConfigs.append(format)
     }
+
+    public func clearUserConfigs() {
+        customConfigs.removeAll()
+    }
 }
